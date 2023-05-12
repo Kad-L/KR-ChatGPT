@@ -438,5 +438,35 @@ text {
     transition-property: width, left;
   }
 
-
+  CardText3 {
+    font-size: 30px;
+    color: #0a7bfd;
+    font-family: inherit;
+    font-weight: 800;
+    position: relative;
+    border: none;
+    background: none;
+    text-transform: uppercase;
+    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition-duration: 400ms;
+    transition-property: color;
+    text-align: center;
+  }
+  
+  CardText4 {
+    font-size: 19px;
+    color: #ffffff;
+    font-family: inherit;
+    font-weight: 800;
+    position: absolute;
+    top: 14%;
+    left: 10px;
+    right: 10px;
+    border: none;
+    background: none;
+    text-transform: uppercase;
+    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition-duration: 400ms;
+    transition-property: color;
+  }
   
