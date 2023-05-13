@@ -167,6 +167,47 @@ button_like:after {
   transition-property: width, left;
 }
 
+button_stats {
+  font-size: 18px;
+  color: #e1e1e1;
+  font-family: inherit;
+  font-weight: 800;
+  cursor: pointer;
+  position: relative;
+  left: 35px;
+  border: none;
+  background: none;
+  text-transform: uppercase;
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 400ms;
+  transition-property: color;
+}
+
+button_stats:focus,
+button_stats:hover {
+  color: #fff;
+}
+
+button_stats:focus:after,
+button_stats:hover:after {
+  width: 100%;
+  left: 0%;
+}
+
+button_stats:after {
+  content: "";
+  pointer-events: none;
+  bottom: -2px;
+  left: 50%;
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  background-color: #fff;
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 400ms;
+  transition-property: width, left;
+}
+
 
  body {
   background-color: #1F1E1F;
