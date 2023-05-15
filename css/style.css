@@ -263,6 +263,7 @@ Text-Cute {
   transition-duration: 400ms;
   transition-property: color;
   left: 3px;
+  font-family: "Open Sans", Arial, sans-serif;
 }
 
 .card {
@@ -470,6 +471,22 @@ textfaq {
   transition-property: color;
 }
 
+textstatsg {
+  font-size: 31px;
+   color: #ffffff;
+   font-family: inherit;
+   font-weight: 800;
+   position: absolute;
+   top: 20%;
+   right: 40.8%;
+   border: none;
+   background: none;
+   text-transform: uppercase;
+   transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+   transition-duration: 400ms;
+   transition-property: color;
+ }
+
 CardText3 {
   font-size: 30px;
   color: #0a7bfd;
@@ -493,6 +510,40 @@ CardText4 {
   position: absolute;
   top: 14%;
   left: 10px;
+  right: 10px;
+  border: none;
+  background: none;
+  text-transform: uppercase;
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 400ms;
+  transition-property: color;
+}
+
+ServerStats {
+  font-size: 17.5px;
+  color: #ffffff;
+  font-family: inherit;
+  font-weight: 800;
+  position: absolute;
+  top: 25%;
+  left: 10px;
+  right: 10px;
+  border: none;
+  background: none;
+  text-transform: uppercase;
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 400ms;
+  transition-property: color;
+}
+
+PlayerStats {
+  font-size: 17.5px;
+  color: #ffffff;
+  font-family: inherit;
+  font-weight: 800;
+  position: absolute;
+  top: 25%;
+  left: 20%;
   right: 10px;
   border: none;
   background: none;
