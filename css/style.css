@@ -221,7 +221,7 @@ button_stats:after {
 }
 
 
- body {
+body {
   background-color: #1F1E1F;
  }
 
@@ -436,24 +436,6 @@ pp2 {
 }
 
 
-textlogo {
-  font-size: 65px;
-  color: #0a7bfd;
-  font-family: inherit;
-  font-weight: 800;
-  position: absolute;
-  top: 10%;
-  left: 10px;
-  right: 10px;
-  border: none;
-  background: none;
-  text-transform: uppercase;
-  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
-  transition-duration: 400ms;
-  transition-property: color;
-  text-align: center;
-}
-
 textfaq {
  font-size: 31px;
   color: #ffffff;
@@ -471,14 +453,14 @@ textfaq {
   transition-property: color;
 }
 
-textstatsg {
-  font-size: 31px;
+premium-faq {
+   font-size: 31px;
    color: #ffffff;
    font-family: inherit;
    font-weight: 800;
    position: absolute;
    top: 20%;
-   right: 40.8%;
+   right: 350px;
    border: none;
    background: none;
    text-transform: uppercase;
@@ -519,15 +501,121 @@ CardText4 {
   transition-property: color;
 }
 
-ServerStats {
-  font-size: 17.5px;
-  color: #ffffff;
+.container2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card_box2 {
+  width: 400px;
+  height: 450px;
+  border-radius: 20px;
+  background: linear-gradient(170deg, rgba(58, 56, 56, 0.623) 0%, rgb(31, 31, 31) 100%);
+  position: absolute;
+  top: 30%;
+  left: 60%;
+  box-shadow: 0 25px 50px rgba(0,0,0,0.55);
+  cursor: pointer;
+  transition: all .3s;
+}
+
+.card_box2:hover {
+  transform: scale(0.9);
+}
+
+.card_box2 span {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  top: -40px;
+  left: 135px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card_box2 span::before {
+  content: 'На месяц';
+  position: absolute;
+  font-size: 30px;
+  color: #fff;
+  font-weight: 600;
+  font-family: "Open Sans", Arial, sans-serif;
+}
+
+.card_box2 span::after {
+  content: '';
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  z-index: -1;
+}
+
+
+
+.container3 {
+  display: flex;
+}
+
+.card_box3 {
+  width: 400px;
+  height: 450px;
+  border-radius: 20px;
+  background: linear-gradient(170deg, rgba(58, 56, 56, 0.623) 0%, rgb(31, 31, 31) 100%);
+  position: absolute;
+  top: 30%;
+  right: 60%;
+  box-shadow: 0 25px 50px rgba(0,0,0,0.55);
+  cursor: pointer;
+  transition: all .3s;
+}
+
+.card_box3:hover {
+  transform: scale(0.9);
+}
+
+.card_box3 span {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  top: -10px;
+  left: -10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card_box3 span::before {
+  content: 'Навсегда';
+  position: absolute;
+  top: 25px;
+  left: 135px;
+  font-size: 30px;
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  font-family: "Open Sans", Arial, sans-serif;
+}
+
+.card_box3 span::after {
+  content: '';
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  z-index: -1;
+}
+
+
+button_premium {
+  font-size: 25px;
+  color: #e1e1e1;
   font-family: inherit;
   font-weight: 800;
-  position: absolute;
-  top: 25%;
-  left: 10px;
-  right: 10px;
+  cursor: pointer;
+  position: relative;
+  top: 730px;
+  left: 735px;
   border: none;
   background: none;
   text-transform: uppercase;
@@ -536,19 +624,159 @@ ServerStats {
   transition-property: color;
 }
 
-PlayerStats {
-  font-size: 17.5px;
-  color: #ffffff;
+button_premium:focus,
+button_premium:hover {
+  color: #fff;
+}
+
+button_premium:focus:after,
+button_premium:hover:after {
+  width: 100%;
+  left: 0%;
+}
+
+button_premium:after {
+  content: "";
+  pointer-events: none;
+  bottom: -2px;
+  left: 50%;
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  background-color: #fff;
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 400ms;
+  transition-property: width, left;
+}
+
+p1 {
+  font-size: 20px;
+  color: #0a7bfd;
   font-family: inherit;
   font-weight: 800;
   position: absolute;
-  top: 25%;
-  left: 20%;
-  right: 10px;
+  top: 100px;
+  right: 20px;
   border: none;
   background: none;
   text-transform: uppercase;
   transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
   transition-duration: 400ms;
   transition-property: color;
+  font-family: "Open Sans", Arial, sans-serif;
+}
+
+
+p2 {
+  font-size: 20px;
+  color: #0a7bfd;
+  font-family: inherit;
+  font-weight: 800;
+  position: absolute;
+  top: 130px;
+  left: -100px;
+  border: none;
+  background: none;
+  text-transform: uppercase;
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 400ms;
+  transition-property: color;
+  font-family: "Open Sans", Arial, sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+:root {  
+  --purple: rgb(24, 89, 174);
+  --violet: rgb(14, 105, 215);
+  --pink: rgb(22, 157, 230);
+}
+
+@keyframes background-pan {
+  from {
+    background-position: 0% center;
+  }
+  
+  to {
+    background-position: -200% center;
+  }
+}
+
+@keyframes scale {
+  from, to {
+    transform: scale(0);
+  }
+  
+  50% {
+    transform: scale(1);
+  }
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  
+  to {
+    transform: rotate(180deg);
+  }
+}
+
+logo {
+  font-family: inherit;
+  font-size: 75px;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: clamp(2em, 2vw, 4em);
+  font-weight: 400;
+  margin: 0px;
+  padding: 20px;
+  font-weight: 900;
+  position: absolute;
+  text-align: center;
+  top: 10%;
+  left: 10px;
+  right: 10px;
+}
+
+logo > .magic {
+  display: inline-block;
+  position: relative;
+}
+
+logo > .magic > .magic-star {
+  --size: clamp(20px, 1.5vw, 30px);
+  
+  animation: scale 700ms ease forwards;
+  display: block;
+  height: var(--size);
+  left: var(--star-left);
+  position: absolute;
+  top: var(--star-top);
+  width: var(--size);
+}
+
+logo > .magic > .magic-star > svg {
+  animation: rotate 1500ms linear infinite;
+  display: block;
+  opacity: 0.7;
+}
+
+logo > .magic > .magic-star > svg > path {
+  fill: #8aadff;
+}
+
+logo > .magic > .magic-text {
+  animation: background-pan 6s linear infinite;
+  background: linear-gradient(
+    to right,
+    var(--purple),
+    var(--violet),
+    var(--pink),
+    var(--purple)
+  );
+  background-size: 200%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  white-space: nowrap;
 }
