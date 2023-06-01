@@ -1,8 +1,10 @@
 text {
-  font-family: "Open Sans", Arial, sans-serif;
+  size: 10px;
+  font-family: Arial;
 }
 
 button_head {
+  size: 50px;
   font-family: inherit;
   font-weight: 800;
   cursor: pointer;
@@ -267,6 +269,7 @@ Text-Cute {
 }
 
 .card {
+  size: 50px;
   position: absolute;
   top: 35%;
   left: 10%;
@@ -279,6 +282,7 @@ Text-Cute {
  }
  
  .card2 {
+  size: 50px;
   width: 400px;
   height: 300px;
   background-color: #1a1a1a;
@@ -296,6 +300,7 @@ Text-Cute {
  }
 
 CardText1 {
+  size: 50px;
   font-size: 20px;
   color: #0a7bfd;
   font-family: inherit;
@@ -311,6 +316,7 @@ CardText1 {
 }
 
 CardText2 {
+  size: 50px;
   font-size: 17px;
   color: #ffffff;
   font-family: inherit;
@@ -328,6 +334,7 @@ CardText2 {
 }
 
 CardText2-2 {
+  size: 50px;
   font-size: 16px;
   color: #ffffff;
   font-family: inherit;
@@ -345,6 +352,7 @@ CardText2-2 {
 }
 
 .card3 {
+  size: 50px;
   position: absolute;
   top: 35%;
   right: 10%;
@@ -357,6 +365,7 @@ CardText2-2 {
  }
  
  .card4 {
+  size: 50px;
   width: 400px;
   height: 300px;
   background-color: #1a1a1a;
@@ -365,15 +374,18 @@ CardText2-2 {
  }
 
  .card4:hover {
+  size: 50px;
   transform: scale(0.98);
   border-radius: 20px;
  }
  
  .card4:hover {
+  size: 50px;
   box-shadow: 0px 0px 30px 1px rgba(0, 128, 255, 0.3);
  }
 
  .card5 {
+  size: 50px;
   position: absolute;
   top: 34%;
   right: 35%;
@@ -387,6 +399,7 @@ CardText2-2 {
  }
  
  .card6 {
+  size: 50px;
   width: 400px;
   height: 300px;
   background-color: #1a1a1a;
@@ -395,15 +408,18 @@ CardText2-2 {
  }
 
  .card6:hover {
+  size: 50px;
   transform: scale(0.98);
   border-radius: 20px;
  }
  
  .card6:hover {
+  size: 50px;
   box-shadow: 0px 0px 30px 1px rgba(0, 128, 255, 0.3);
  }
 
 pp {
+  size: 50px;
   font-size: 25px;
   color: white;
   font-family: inherit;
@@ -420,6 +436,7 @@ pp {
 }
 
 pp2 {
+  size: 50px;
   font-size: 20px;
   color: white;
   font-family: inherit;
@@ -437,7 +454,8 @@ pp2 {
 
 
 textfaq {
- font-size: 31px;
+  size: 50px;
+  font-size: 31px;
   color: #ffffff;
   font-family: inherit;
   font-weight: 800;
@@ -454,6 +472,7 @@ textfaq {
 }
 
 premium-faq {
+   size: 50px;
    font-size: 31px;
    color: #ffffff;
    font-family: inherit;
@@ -470,6 +489,7 @@ premium-faq {
  }
 
 CardText3 {
+  size: 50px;
   font-size: 30px;
   color: #0a7bfd;
   font-family: inherit;
@@ -485,6 +505,7 @@ CardText3 {
 }
 
 CardText4 {
+  size: 50px;
   font-size: 17.5px;
   color: #ffffff;
   font-family: inherit;
@@ -502,12 +523,14 @@ CardText4 {
 }
 
 .container2 {
+  size: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .card_box2 {
+  size: 50px;
   width: 400px;
   height: 450px;
   border-radius: 20px;
@@ -521,10 +544,12 @@ CardText4 {
 }
 
 .card_box2:hover {
+  size: 50px;
   transform: scale(0.9);
 }
 
 .card_box2 span {
+  size: 50px;
   position: absolute;
   width: 150px;
   height: 150px;
@@ -536,6 +561,7 @@ CardText4 {
 }
 
 .card_box2 span::before {
+  size: 50px;
   content: 'На месяц';
   position: absolute;
   font-size: 30px;
@@ -545,6 +571,7 @@ CardText4 {
 }
 
 .card_box2 span::after {
+  size: 50px;
   content: '';
   position: absolute;
   width: 10px;
@@ -555,10 +582,12 @@ CardText4 {
 
 
 .container3 {
+  size: 50px;
   display: flex;
 }
 
 .card_box3 {
+  size: 50px;
   width: 400px;
   height: 450px;
   border-radius: 20px;
@@ -572,10 +601,12 @@ CardText4 {
 }
 
 .card_box3:hover {
+  size: 50px;
   transform: scale(0.9);
 }
 
 .card_box3 span {
+  size: 50px;
   position: absolute;
   width: 150px;
   height: 150px;
@@ -587,6 +618,7 @@ CardText4 {
 }
 
 .card_box3 span::before {
+  size: 50px;
   content: 'Навсегда';
   position: absolute;
   top: 25px;
@@ -599,6 +631,7 @@ CardText4 {
 }
 
 .card_box3 span::after {
+  size: 50px;
   content: '';
   position: absolute;
   width: 10px;
@@ -608,6 +641,7 @@ CardText4 {
 
 
 button_premium {
+  size: 50px;
   font-size: 25px;
   color: #e1e1e1;
   font-family: inherit;
@@ -627,15 +661,18 @@ button_premium {
 button_premium:focus,
 button_premium:hover {
   color: #fff;
+  size: 50px;
 }
 
 button_premium:focus:after,
 button_premium:hover:after {
   width: 100%;
   left: 0%;
+  size: 50px;
 }
 
 button_premium:after {
+  size: 50px;
   content: "";
   pointer-events: none;
   bottom: -2px;
@@ -650,6 +687,7 @@ button_premium:after {
 }
 
 p1 {
+  size: 50px;
   font-size: 20px;
   color: #0a7bfd;
   font-family: inherit;
@@ -668,6 +706,7 @@ p1 {
 
 
 p2 {
+  size: 50px;
   font-size: 20px;
   color: #0a7bfd;
   font-family: inherit;
@@ -723,6 +762,7 @@ p2 {
 }
 
 logo {
+  size: 50px;
   font-family: inherit;
   font-size: 75px;
   color: white;
@@ -740,11 +780,13 @@ logo {
 }
 
 logo > .magic {
+  size: 50px;
   display: inline-block;
   position: relative;
 }
 
 logo > .magic > .magic-star {
+  size: 50px;
   --size: clamp(20px, 1.5vw, 30px);
   
   animation: scale 700ms ease forwards;
@@ -757,16 +799,19 @@ logo > .magic > .magic-star {
 }
 
 logo > .magic > .magic-star > svg {
+  size: 50px;
   animation: rotate 1500ms linear infinite;
   display: block;
   opacity: 0.7;
 }
 
 logo > .magic > .magic-star > svg > path {
-  fill: #8aadff;
+  size: 50px;
+  fill: #4279f0c5;
 }
 
 logo > .magic > .magic-text {
+  size: 50px;
   animation: background-pan 6s linear infinite;
   background: linear-gradient(
     to right,
