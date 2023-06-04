@@ -1,6 +1,6 @@
 text {
   size: 10px;
-  font-family: Arial;
+  font-family: 'Montserrat', sans-serif;
 }
 
 button_head {
@@ -255,7 +255,7 @@ button1:after {
 Text-Cute {
   font-size: 25px;
   color: #0a7bfd;
-  font-family: inherit;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 800;
   position: relative;
   border: none;
@@ -265,164 +265,13 @@ Text-Cute {
   transition-duration: 400ms;
   transition-property: color;
   left: 3px;
-  font-family: "Open Sans", Arial, sans-serif;
 }
-
-.card {
-  size: 50px;
-  position: absolute;
-  top: 35%;
-  left: 10%;
-  width: 400px;
-  height: 300px;
-  background-image: linear-gradient(163deg, #0a7bfd 0%, #0a7bfd 100%);
-  border-radius: 20px;
-  transition: all .3s;
-  text-align: center;
- }
- 
- .card2 {
-  size: 50px;
-  width: 400px;
-  height: 300px;
-  background-color: #1a1a1a;
-  border-radius: 19px;
-  transition: all .2s;
- }
-
- .card2:hover {
-  transform: scale(0.98);
-  border-radius: 20px;
- }
- 
- .card:hover {
-  box-shadow: 0px 0px 30px 1px rgba(0, 128, 255, 0.3);
- }
-
-CardText1 {
-  size: 50px;
-  font-size: 20px;
-  color: #0a7bfd;
-  font-family: inherit;
-  font-weight: 800;
-  position: relative;
-  border: none;
-  background: none;
-  text-transform: uppercase;
-  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
-  transition-duration: 400ms;
-  transition-property: color;
-  text-align: center;
-}
-
-CardText2 {
-  size: 50px;
-  font-size: 17px;
-  color: #ffffff;
-  font-family: inherit;
-  font-weight: 800;
-  position: absolute;
-  top: 14%;
-  left: 10px;
-  right: 10px;
-  border: none;
-  background: none;
-  text-transform: uppercase;
-  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
-  transition-duration: 400ms;
-  transition-property: color;
-}
-
-CardText2-2 {
-  size: 50px;
-  font-size: 16px;
-  color: #ffffff;
-  font-family: inherit;
-  font-weight: 800;
-  position: absolute;
-  top: 14%;
-  left: 10px;
-  right: 10px;
-  border: none;
-  background: none;
-  text-transform: uppercase;
-  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
-  transition-duration: 400ms;
-  transition-property: color;
-}
-
-.card3 {
-  size: 50px;
-  position: absolute;
-  top: 35%;
-  right: 10%;
-  width: 400px;
-  height: 300px;
-  background-image: linear-gradient(163deg, #0a7bfd 0%, #0a7bfd 100%);
-  border-radius: 20px;
-  transition: all .3s;
-  text-align: center;
- }
- 
- .card4 {
-  size: 50px;
-  width: 400px;
-  height: 300px;
-  background-color: #1a1a1a;
-  border-radius: 19px;
-  transition: all .2s;
- }
-
- .card4:hover {
-  size: 50px;
-  transform: scale(0.98);
-  border-radius: 20px;
- }
- 
- .card4:hover {
-  size: 50px;
-  box-shadow: 0px 0px 30px 1px rgba(0, 128, 255, 0.3);
- }
-
- .card5 {
-  size: 50px;
-  position: absolute;
-  top: 34%;
-  right: 35%;
-  left: 38%;
-  width: 400px;
-  height: 300px;
-  background-image: linear-gradient(163deg, #0a7bfd 0%, #0a7bfd 100%);
-  border-radius: 20px;
-  transition: all .3s;
-  text-align: center;
- }
- 
- .card6 {
-  size: 50px;
-  width: 400px;
-  height: 300px;
-  background-color: #1a1a1a;
-  border-radius: 19px;
-  transition: all .2s;
- }
-
- .card6:hover {
-  size: 50px;
-  transform: scale(0.98);
-  border-radius: 20px;
- }
- 
- .card6:hover {
-  size: 50px;
-  box-shadow: 0px 0px 30px 1px rgba(0, 128, 255, 0.3);
- }
 
 pp {
   size: 50px;
   font-size: 25px;
   color: white;
-  font-family: inherit;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 800;
   position: absolute;
   top: 90%;
@@ -439,7 +288,7 @@ pp2 {
   size: 50px;
   font-size: 20px;
   color: white;
-  font-family: inherit;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 800;
   position: absolute;
   top: 94%;
@@ -762,15 +611,11 @@ p2 {
 }
 
 logo {
-  size: 50px;
-  font-family: inherit;
-  font-size: 75px;
+  font-size: 60px;
   color: white;
   font-family: 'Montserrat', sans-serif;
-  font-size: clamp(2em, 2vw, 4em);
-  font-weight: 400;
   margin: 0px;
-  padding: 20px;
+  padding: 5px;
   font-weight: 900;
   position: absolute;
   text-align: center;
