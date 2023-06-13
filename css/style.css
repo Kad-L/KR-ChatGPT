@@ -337,6 +337,78 @@ premium-faq {
    transition-property: color;
  }
 
+pp-faq {
+  size: 50px;
+  font-size: 21px;
+  color: #ffffff;
+  font-family: inherit;
+  font-weight: 800;
+  position: absolute;
+  top: 20%;
+  right: 50px;
+  border: none;
+  background: none;
+  text-transform: uppercase;
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 400ms;
+  transition-property: color;
+  text-align: center;
+}
+
+pp-text1 {
+  size: 50px;
+  font-size: 25px;
+  color: #ffffff;
+  font-family: inherit;
+  font-weight: 800;
+  position: absolute;
+  top: 32%;
+  right: 0px;
+  border: none;
+  background: none;
+  text-transform: uppercase;
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 400ms;
+  transition-property: color;
+  text-align: center;
+}
+
+pp-text2 {
+  size: 50px;
+  font-size: 23px;
+  color: #ffffff;
+  font-family: inherit;
+  font-weight: 800;
+  position: absolute;
+  top: 60%;
+  right: 0px;
+  border: none;
+  background: none;
+  text-transform: uppercase;
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 400ms;
+  transition-property: color;
+  text-align: center;
+}
+
+pp-text2-g {
+  size: 50px;
+  font-size: 40px;
+  color: #ffffff;
+  font-family: inherit;
+  font-weight: 800;
+  position: absolute;
+  top: 54%;
+  right: 500px;
+  border: none;
+  background: none;
+  text-transform: uppercase;
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 400ms;
+  transition-property: color;
+  text-align: center;
+}
+
 CardText3 {
   size: 50px;
   font-size: 30px;
@@ -669,4 +741,54 @@ logo > .magic > .magic-text {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   white-space: nowrap;
+}
+
+server-info {
+  size: 20px;
+  font-size: 21px;
+  color: #ffffff;
+  font-family: inherit;
+  font-weight: 800;
+  position: absolute;
+  top: 75%;
+  border: none;
+  background: none;
+  text-transform: uppercase;
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 400ms;
+  transition-property: color;
+}
+
+rb-info {
+  size: 20px;
+  font-size: 21px;
+  color: #ffffff;
+  font-family: inherit;
+  font-weight: 800;
+  position: absolute;
+  top: 75%;
+  left: 70px;
+  border: none;
+  background: none;
+  text-transform: uppercase;
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 400ms;
+  transition-property: color;
+}
+
+faq-1 {
+  size: 20px;
+  font-size: 21px;
+  color: #ffffff;
+  font-family: inherit;
+  font-weight: 800;
+  position: absolute;
+  top: 75%;
+  left: 70px;
+  border: none;
+  background: none;
+  text-transform: uppercase;
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 400ms;
+  transition-property: color;
 }
