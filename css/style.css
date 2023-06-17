@@ -181,6 +181,47 @@ button_like:after {
   transition-property: width, left;
 }
 
+button_ppp {
+  font-size: 18px;
+  color: #e1e1e1;
+  font-family: inherit;
+  font-weight: 800;
+  cursor: pointer;
+  position: relative;
+  left: 30px;
+  border: none;
+  background: none;
+  text-transform: uppercase;
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 400ms;
+  transition-property: color;
+}
+
+button_ppp:focus,
+button_ppp:hover {
+  color: #fff;
+}
+
+button_ppp:focus:after,
+button_ppp:hover:after {
+  width: 100%;
+  left: 0%;
+}
+
+button_ppp:after {
+  content: "";
+  pointer-events: none;
+  bottom: -2px;
+  left: 50%;
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  background-color: #fff;
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 400ms;
+  transition-property: width, left;
+}
+
 button_stats {
   font-size: 18px;
   color: #e1e1e1;
@@ -357,7 +398,7 @@ pp-faq {
 
 pp-text1 {
   size: 50px;
-  font-size: 25px;
+  font-size: 20px;
   color: #ffffff;
   font-family: inherit;
   font-weight: 800;
@@ -375,13 +416,31 @@ pp-text1 {
 
 pp-text2 {
   size: 50px;
-  font-size: 23px;
+  font-size: 20px;
   color: #ffffff;
   font-family: inherit;
   font-weight: 800;
   position: absolute;
   top: 60%;
   right: 0px;
+  border: none;
+  background: none;
+  text-transform: uppercase;
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 400ms;
+  transition-property: color;
+  text-align: center;
+}
+
+pp-text3 {
+  size: 50px;
+  font-size: 20px;
+  color: #ffffff;
+  font-family: inherit;
+  font-weight: 800;
+  position: absolute;
+  top: 45%;
+  right: 0PX;
   border: none;
   background: none;
   text-transform: uppercase;
@@ -741,54 +800,4 @@ logo > .magic > .magic-text {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   white-space: nowrap;
-}
-
-server-info {
-  size: 20px;
-  font-size: 21px;
-  color: #ffffff;
-  font-family: inherit;
-  font-weight: 800;
-  position: absolute;
-  top: 75%;
-  border: none;
-  background: none;
-  text-transform: uppercase;
-  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
-  transition-duration: 400ms;
-  transition-property: color;
-}
-
-rb-info {
-  size: 20px;
-  font-size: 21px;
-  color: #ffffff;
-  font-family: inherit;
-  font-weight: 800;
-  position: absolute;
-  top: 75%;
-  left: 70px;
-  border: none;
-  background: none;
-  text-transform: uppercase;
-  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
-  transition-duration: 400ms;
-  transition-property: color;
-}
-
-faq-1 {
-  size: 20px;
-  font-size: 21px;
-  color: #ffffff;
-  font-family: inherit;
-  font-weight: 800;
-  position: absolute;
-  top: 75%;
-  left: 70px;
-  border: none;
-  background: none;
-  text-transform: uppercase;
-  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
-  transition-duration: 400ms;
-  transition-property: color;
 }
