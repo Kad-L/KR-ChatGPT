@@ -658,7 +658,7 @@
   @media (max-width: 1400px) {
     .container {
       position: absolute;
-      left: 175px;
+      left: 275px;
     }
     .container,
     .header { max-width: 1320px; }
@@ -677,8 +677,8 @@
 
     .copyright {
       position: absolute;
-      left: 30px;
-      top: 230px;
+      right: 150px;
+      top: 200px;
     }
   }
 
@@ -701,7 +701,12 @@
     .about .wrapper { gap: 100px; }
   
     .about .grid-list { gap: 60px; }
-  
+
+    .copyright {
+      position: absolute;
+      right: 150px;
+      top: 200px;
+    }
   }
 
 
