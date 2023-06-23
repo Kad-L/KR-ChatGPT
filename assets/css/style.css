@@ -656,7 +656,10 @@
   }
   
   @media (max-width: 1400px) {
-
+    .container {
+      position: absolute;
+      left: 150px;
+    }
     .container,
     .header { max-width: 1320px; }
   
@@ -680,7 +683,10 @@
   }
 
   @media (min-width: 1400px) {
-
+    .container {
+      position: absolute;
+      left: 150px;
+    }
     .container,
     .header { max-width: 1320px; }
   
